@@ -1,0 +1,11 @@
+-standalone: true
+
+-runrequires: bnd.identity;id='bundle2'
+-runfw: org.eclipse.osgi
+-runee: JavaSE-1.8
+-runbundles: \
+	bundle1;version='[0.0.1,0.0.2)',\
+	bundle2;version='[0.0.1,0.0.2)',\
+	org.apache.felix.scr;version='[2.1.16,2.1.17)',\
+	org.osgi.util.function;version='[1.1.0,1.1.1)',\
+	org.osgi.util.promise;version='[1.1.0,1.1.1)'
